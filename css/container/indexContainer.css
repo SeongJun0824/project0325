@@ -49,7 +49,6 @@
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
 }
 .container .inner-container .index .section .section.sec .sec-con span{
     width: 40px;
@@ -58,6 +57,7 @@
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(211, 231, 157);
+    cursor: pointer;
 }
 .container .inner-container .index .section .section.sec .sec-con span:hover{
     background-color: rgba(211, 231, 157, 0.61);
