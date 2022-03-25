@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <div class="header">
+      <div class="inner-header">
+        <div class="nav">
+          <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="LOGO"></a></h1>
+          <div class="gnb">
+            <ul>
+              <li>
+                <a href="index.html">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">TECH</a></li>
+              <li><a href="join.html">JOIN</a></li>
+              <li><a href="#">LOGIN</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="join">
+      <div class="inner-join">
+        <div class="sign-up">
+          <div class="sign-up-con">
+            <h1 class="title">ASUS 지금 가입하기</h1>
+            <div class="sign-up-form">
+              <form action="joinOk.do" method="POST" id="joinForm">
+                <ul>
+                  <li>
+                    <label for="userId">ID</label>
+                  </li>
+                  <li class="li1">
+                    <input type="text" name="userId" id="userId" placeholder="아이디:이메일주소 계정 Ex:00000@naver.com">
+                  </li>
+                  <li>
+                    <label for="userPw">PassWord</label>
+                  </li>
+                  <li class="li1">
+                    <input type="password" name="userPw" id="userPw" placeholder="8-25글자 범위에서 입력해주세요">
+                  </li>
+                  <li>
+                    <label for="userPw">PassWord-Check</label>
+                  </li>
+                  <li class="li1">
+                    <input type="password" name="userPw2" id="userPw2" placeholder="다시한번 패스워드를 입력해주세요">
+                  </li>
+                  <li class="li2">
+                    <label for="birth">생년월일</label>
+                    <select name="birth" id="birth">
+                      <option value="" selected>-선택하세요-</option>
+                      <option value="2000">2000</option>
+                      <option value="1999">1999</option>
+                      <option value="1998">1998</option>
+                      <option value="1997">1997</option>
+                      <option value="1996">1996</option>
+                      <option value="1995">1995</option>
+                    </select>
+                    <select name="month" id="month">
+                      <option value="1" selected>1월</option>
+                      <option value="2">2월</option>
+                      <option value="3">3월</option>
+                      <option value="4">4월</option>
+                      <option value="5">5월</option>
+                      <option value="6">6월</option>
+                      <option value="7">7월</option>
+                      <option value="8">8월</option>
+                      <option value="9">9월</option>
+                      <option value="10">10월</option>
+                      <option value="11">11월</option>
+                      <option value="12">12월</option>
+                    </select>
+                    <select name="day" id="day">
+                      <option value="1" selected>1일</option>
+                      <option value="2" >2일</option>
+                      <option value="3" >3일</option>
+                      <option value="4" >4일</option>
+                      <option value="5" >5일</option>
+                      <option value="6" >6일</option>
+                      <option value="7" >7일</option>
+                      <option value="8" >8일</option>
+                      <option value="9" >9일</option>
+                      <option value="10" >10일</option>
+                      <option value="11" >11일</option>
+                      <option value="12" >12일</option>
+                    </select>
+                  </li>
+                  <li class="li3">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">나는 다음 조건과 개인정보 정책에 동의합니다.</label><br>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">본인은 ASUS 회원식별의 목적으로 ASUS 회원인 기간 동안에 ASUS가 <br> 이메일, 지역, 생년월일(선택)에 대한 정보를 수집하는 것에 동의합니다.</label>
+                  </li>
+                  <li class="li31">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">나는 로봇이 아닙니다</label>
+                  </li>
+                  <li class="li4">
+                    <input type="submit" value="등록하기">
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="fcon">Project by <a href="#">Cozy</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
